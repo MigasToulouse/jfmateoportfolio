@@ -14,7 +14,7 @@ import requests
 
 
 #%% Database loading and configuration
-DATABASE_PATH = r"pokemon_db.json"
+DATABASE_PATH = r"resources\pokemon_db.json"
 with open(DATABASE_PATH, "r", encoding="utf-8") as f:
     pokemon_db = json.load(f)
 
