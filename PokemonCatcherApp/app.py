@@ -274,7 +274,8 @@ def update_catchrates(pokemonname, cp, ball, berry, shinyradio, *_):
         chain_dict["chainvalue"] += 1
         # Update the chain text
         if chain_dict["chainvalue"] > 0:
-            chain_dict["chaintext"] = html.Td(f'Chain of {chain_dict["chainvalue"]} {pokemonname.split('-')[-1]}!', style={"color":"SteelBlue" ,"font-weight": "bold"})
+            chain_dict["chaintext"] = html.Td(f'Chain of {chain_dict["chainvalue"]} {pokemonname.split('-')[-1]}!', 
+                                              style={"color":"SteelBlue" ,"font-weight": "bold"})
         else:
             chain_dict["chaintext"] = chain_dict["chaintext_init"]
     elif ctx.triggered_id == "resetchain_btn":
