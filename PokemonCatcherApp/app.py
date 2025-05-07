@@ -14,7 +14,7 @@ import requests
 
 
 #%% Database loading and configuration
-DATABASE_PATH = r"Pokemon\pokemon_db.json"
+DATABASE_PATH = r"resources\pokemon_db.json"
 with open(DATABASE_PATH, "r", encoding="utf-8") as f:
     pokemon_db = json.load(f)
 
@@ -139,6 +139,8 @@ pokemontocatch = choice(list(pokemon_dict.keys()))
 combatpower = randint(1, 1000)
 
 app = Dash()
+server = app.server
+app.title = "PokemonCatcher"
 
 app.layout = (
     html.Div(
@@ -260,7 +262,7 @@ def update_catchrates(pokemonname, cp, ball, berry, shinyradio, *_):
         # + button was clicked
         # Add 1 to the number of times caught and update the pokemon_db
         pokemon_dict[pokemonname]["times_caught"] += 1
-        with open(r"Pokemon\pokemon_db.json", "w", encoding="utf-8") as db_file:
+        with open(DATABASE_PATH, "w", encoding="utf-8") as db_file:
             json.dump(pokemon_db, db_file, indent=4)
 
         # Add 1 to the chain if the pokemon is the same as the last one caught
@@ -272,7 +274,7 @@ def update_catchrates(pokemonname, cp, ball, berry, shinyradio, *_):
         chain_dict["chainvalue"] += 1
         # Update the chain text
         if chain_dict["chainvalue"] > 0:
-            chain_dict["chaintext"] = html.Td(f'Chain of {chain_dict["chainvalue"]} {pokemonname.split('-')[-1]}!', style={"color":"SteelBlue" ,"font-weight": "bold"})
+            chain_dict["chaintext"] = html.Td(f'Chain of {chain_dict["chainvalue"]} {pokemonname.split("-")[-1]}!', style={"color":"SteelBlue" ,"font-weight": "bold"})
         else:
             chain_dict["chaintext"] = chain_dict["chaintext_init"]
     elif ctx.triggered_id == "resetchain_btn":
@@ -283,7 +285,7 @@ def update_catchrates(pokemonname, cp, ball, berry, shinyradio, *_):
         # Shiny radio button was clicked
         # Set the shiny_caught value in the pokemon_db
         pokemon_dict[pokemonname]["shiny_caught"] = shinyradio
-        with open(r"Pokemon\pokemon_db.json", "w", encoding="utf-8") as db_file:
+        with open(DATABASE_PATH, "w", encoding="utf-8") as db_file:
             json.dump(pokemon_db, db_file, indent=4)
 
     shinyradio = pokemon_dict[pokemonname]["shiny_caught"]
