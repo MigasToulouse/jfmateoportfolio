@@ -4,6 +4,7 @@ For Pokemon Let's Go.
 """
 
 #%% Library imports
+import os
 from random import choice, randint
 import json
 from io import BytesIO
@@ -14,7 +15,7 @@ import requests
 
 
 #%% Database loading and configuration
-DATABASE_PATH = r"resources\pokemon_db.json"
+DATABASE_PATH = os.path.join(os.getcwd(), r"resources/pokemon_db.json")
 with open(DATABASE_PATH, "r", encoding="utf-8") as f:
     pokemon_db = json.load(f)
 
