@@ -15,28 +15,30 @@ import requests
 
 
 #%% Database loading and configuration
-DATABASE_PATH = os.path.join(os.getcwd(), r"resources/pokemon_db.json")
-with open(DATABASE_PATH, "r", encoding="utf-8") as f:
-    pokemon_db = json.load(f)
+DATASOURCES_PATH = os.path.join(os.getcwd(), r"resources")
+DATABASE_PATH = os.path.join(DATASOURCES_PATH, r"pokemon_db.json")
+UTILS_PATH = os.path.join(DATASOURCES_PATH, r"utils.json")
+
+with open(DATABASE_PATH, "r", encoding="utf-8") as database,\
+     open(UTILS_PATH, "r", encoding="utf-8") as utils:
+    pokemon_db = json.load(database)
+    utils_json = json.load(utils)
 
 pokemon_dict = pokemon_db["pokemon"]
 ballrate_dict = pokemon_db["ball_rate"]
 technique_dict = pokemon_db["technique"]
 berry_dict = pokemon_db["berry"]
+pokemonchain_dict = utils_json["pokemonchain"]
+
+# Global variables
+chaintext = html.Td("No chain", style={"font-weight": "normal"})
+INIT_STATE = True
 
 # Get the game logo
 LOGO_URL = "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Pok%C3%A9mon_Lets_Go_Eevee_Logo.png/800px-Pok%C3%A9mon_Lets_Go_Eevee_Logo.png?20180530032955"
 response = requests.get(LOGO_URL, timeout=5)
 game_logo = Image.open(BytesIO(response.content))
 
-#%% Global variables
-chain_dict = {
-    'chaintext_init' : html.Td("No chain", style={"font-weight": "normal"}),
-    'chaintext' : html.Td("No chain", style={"font-weight": "normal"}),
-    'current_catch' : '',
-    'last_catch' : '',
-    'chainvalue' : 0
-}
 
 #%% Functions
 def catch_pokemon(pokemon: str, combat_power: int, ball: str, berry: str) -> list:
@@ -135,6 +137,42 @@ def get_sprite(pokemon: str, shiny: bool = False) -> str:
     urlresponse = requests.get(url, timeout=5)
     return Image.open(BytesIO(urlresponse.content))
 
+def triggers_handler(trigger: str, pokemonname: str, shinyradio: str):
+    """
+    Function to handle the triggers of the app.
+    """
+    global chaintext
+
+    if trigger == "add1_btn":
+        # + button was clicked
+        # Add 1 to the number of times caught and update the pokemon_db
+        pokemon_dict[pokemonname]["times_caught"] += 1
+        # Add 1 to the chain if the pokemon is the same as the last one caught
+        # or reset the chain if a different pokemon was caught
+        if pokemonchain_dict["pokemonname"] != pokemonname:
+            pokemonchain_dict["pokemonname"] = pokemonname
+            pokemonchain_dict["chainvalue"] = 0
+
+        # Update chain text and chain value
+        pokemonchain_dict["chainvalue"] += 1
+        pokemonchain_dict["chaintext"] = f'Chain of {pokemonchain_dict["chainvalue"]} {pokemonname.split("-")[-1]}!'
+        chaintext = html.Td(pokemonchain_dict["chaintext"], style={"color":"SteelBlue" ,"font-weight": "bold"})
+    elif ctx.triggered_id == "resetchain_btn":
+        # Reset button was clicked
+        pokemonchain_dict["chainvalue"] = 0
+        pokemonchain_dict["chaintext"] = "No chain"
+        chaintext = html.Td(pokemonchain_dict["chaintext"], style={"font-weight": "normal"})
+    elif ctx.triggered_id == "shinyradio":
+        # Shiny radio button was clicked
+        # Set the shiny_caught value in the pokemon_db
+        pokemon_dict[pokemonname]["shiny_caught"] = shinyradio
+
+    # Update the pokemon_db and utils.json files
+    with open(DATABASE_PATH, "w", encoding="utf-8") as database,\
+         open(UTILS_PATH, "w", encoding="utf-8") as utils:
+        json.dump(pokemon_db, database, indent=4)
+        json.dump(utils_json, utils, indent=4)
+
 #%% Dash app
 pokemontocatch = choice(list(pokemon_dict.keys()))
 combatpower = randint(1, 1000)
@@ -162,6 +200,19 @@ app.layout = (
                                     value=pokemontocatch,
                                 )
                             ),
+
+                        ]
+                    ),
+                    html.Tr(
+                        [
+                            html.Td("Pokemon cry:"),
+                            html.Td(html.Audio(
+                                id="cryaudio",
+                                controls=True,
+                                autoPlay=False,
+                                hidden=False,
+
+                            )),
                         ]
                     ),
                     html.Tr(
@@ -236,61 +287,49 @@ app.layout = (
 
 #%% Callbacks
 @callback(
-    Output("CRNone", "children"),
-    Output("CRNice", "children"),
-    Output("CRGreat", "children"),
-    Output("CRExcellent", "children"),
-    Output("numbercaught", "children"),
-    Output("chaintext", "children"),
-    Output("sprite_shiny", "src"),
-    Output("sprite_regular", "src"),
-    Output("shinyradio", "value"),
-    Input("pokemonname", "value"),
-    Input("cp", "value"),
-    Input("ball", "value"),
-    Input("berry", "value"),
-    Input("shinyradio", "value"),
-    Input("add1_btn", "n_clicks"),
-    Input("resetchain_btn", "n_clicks"),
+    output=[Output("CRNone", "children"),
+            Output("CRNice", "children"),
+            Output("CRGreat", "children"),
+            Output("CRExcellent", "children"),
+            Output("numbercaught", "children"),
+            Output("chaintext", "children"),
+            Output("sprite_shiny", "src"),
+            Output("sprite_regular", "src"),
+            Output("shinyradio", "value"),
+            Output("cryaudio", "src")
+            ],
+    inputs=[Input("pokemonname", "value"),
+            Input("cp", "value"),
+            Input("ball", "value"),
+            Input("berry", "value"),
+            Input("shinyradio", "value"),
+            Input("add1_btn", "n_clicks"),
+            Input("resetchain_btn", "n_clicks")
+            ],
+    running=[
+            (Output("add1_btn", "disabled"), True, False),
+            (Output("resetchain_btn", "disabled"), True, False)
+            ]
 )
 def update_catchrates(pokemonname, cp, ball, berry, shinyradio, *_):
     """
     Callback function to update the catch rates based on the input data.
     """
+    global INIT_STATE
+    if INIT_STATE:
+        # Set the initial state of the app
+        global chaintext
+        chaintext = html.Td(pokemonchain_dict["chaintext"],
+                            style={"color":"SteelBlue" ,"font-weight": "bold"})
+        INIT_STATE = False
 
     # Triggers
-    if ctx.triggered_id == "add1_btn":
-        # + button was clicked
-        # Add 1 to the number of times caught and update the pokemon_db
-        pokemon_dict[pokemonname]["times_caught"] += 1
-        with open(DATABASE_PATH, "w", encoding="utf-8") as db_file:
-            json.dump(pokemon_db, db_file, indent=4)
-
-        # Add 1 to the chain if the pokemon is the same as the last one caught
-        # or reset the chain if a different pokemon was caught
-        chain_dict["current_catch"] = pokemonname
-        if chain_dict["last_catch"] != chain_dict["current_catch"]:
-            chain_dict["chainvalue"] = 0
-            chain_dict["last_catch"] = pokemonname
-        chain_dict["chainvalue"] += 1
-        # Update the chain text
-        if chain_dict["chainvalue"] > 0:
-            chain_dict["chaintext"] = html.Td(f'Chain of {chain_dict["chainvalue"]} {pokemonname.split("-")[-1]}!', style={"color":"SteelBlue" ,"font-weight": "bold"})
-        else:
-            chain_dict["chaintext"] = chain_dict["chaintext_init"]
-    elif ctx.triggered_id == "resetchain_btn":
-        # Reset button was clicked
-        chain_dict["chainvalue"] = 0
-        chain_dict["chaintext"] = chain_dict["chaintext_init"]
-    elif ctx.triggered_id == "shinyradio":
-        # Shiny radio button was clicked
-        # Set the shiny_caught value in the pokemon_db
-        pokemon_dict[pokemonname]["shiny_caught"] = shinyradio
-        with open(DATABASE_PATH, "w", encoding="utf-8") as db_file:
-            json.dump(pokemon_db, db_file, indent=4)
+    triggers_handler(ctx.triggered_id, pokemonname, shinyradio)
 
     shinyradio = pokemon_dict[pokemonname]["shiny_caught"]
 
+    # Get the pokemon cry
+    cryaudio = pokemon_dict[pokemonname]["cry"]
     # Get the sprites for the pokemon
     sprite_regular = get_sprite(pokemonname, shiny=False)
     sprite_shiny = get_sprite(pokemonname, shiny=True)
@@ -314,10 +353,11 @@ def update_catchrates(pokemonname, cp, ball, berry, shinyradio, *_):
         html.Td(f'Great        {techniquerate_df["Catch Rate"][2]}%', style={"border": f'4px solid {ringcolor_dict["Great"]}', "font-weight": "bold"}),
         html.Td(f'Excellent    {techniquerate_df["Catch Rate"][3]}%', style={"border": f'4px solid {ringcolor_dict["Excellent"]}', "font-weight": "bold"}),
         pokemon_dict[pokemonname]["times_caught"],
-        chain_dict["chaintext"],
+        chaintext,
         sprite_regular,
         sprite_shiny,
-        shinyradio
+        shinyradio,
+        cryaudio
     )
 #%% Run the app
 if __name__ == "__main__":

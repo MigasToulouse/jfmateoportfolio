@@ -7,7 +7,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/66/Bulbasaur_cry.ogg/"
         },
         "002-Ivysaur": {
             "sprite": {
@@ -16,7 +17,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/65/Ivysaur_cry.ogg/"
         },
         "003-Venusaur": {
             "sprite": {
@@ -25,7 +27,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c9/Venusaur_cry.ogg/"
         },
         "004-Charmander": {
             "sprite": {
@@ -34,7 +37,8 @@
             },
             "catch_rate": 45,
             "times_caught": 77,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b3/Charmander_cry.ogg/"
         },
         "005-Charmeleon": {
             "sprite": {
@@ -43,7 +47,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/39/Charmeleon_cry.ogg/"
         },
         "006-Charizard": {
             "sprite": {
@@ -52,7 +57,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/bb/Charizard_cry.ogg/"
         },
         "007-Squirtle": {
             "sprite": {
@@ -61,7 +67,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/7d/Squirtle_cry.ogg/"
         },
         "008-Wartortle": {
             "sprite": {
@@ -70,7 +77,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/27/Wartortle_cry.ogg/"
         },
         "009-Blastoise": {
             "sprite": {
@@ -79,7 +87,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c9/Blastoise_cry.ogg/"
         },
         "010-Caterpie": {
             "sprite": {
@@ -88,7 +97,8 @@
             },
             "catch_rate": 255,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/ae/Caterpie_cry.ogg/"
         },
         "011-Metapod": {
             "sprite": {
@@ -97,7 +107,8 @@
             },
             "catch_rate": 120,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/dc/Metapod_cry.ogg/"
         },
         "012-Butterfree": {
             "sprite": {
@@ -106,7 +117,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d9/Butterfree_cry.ogg/"
         },
         "013-Weedle": {
             "sprite": {
@@ -115,7 +127,8 @@
             },
             "catch_rate": 255,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/36/Weedle_cry.ogg/"
         },
         "014-Kakuna": {
             "sprite": {
@@ -124,7 +137,8 @@
             },
             "catch_rate": 120,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/7f/Kakuna_cry.ogg/"
         },
         "015-Beedrill": {
             "sprite": {
@@ -133,7 +147,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/75/Beedrill_cry.ogg/"
         },
         "016-Pidgey": {
             "sprite": {
@@ -142,7 +157,8 @@
             },
             "catch_rate": 255,
             "times_caught": 163,
-            "shiny_caught": "Yes"
+            "shiny_caught": "Yes",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/33/Pidgey_cry.ogg/"
         },
         "017-Pidgeotto": {
             "sprite": {
@@ -151,7 +167,8 @@
             },
             "catch_rate": 120,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/ba/Pidgeot_cry.ogg/"
         },
         "018-Pidgeot": {
             "sprite": {
@@ -160,7 +177,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/ba/Pidgeot_cry.ogg/"
         },
         "019-Rattata": {
             "sprite": {
@@ -169,7 +187,8 @@
             },
             "catch_rate": 255,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/51/Rattata_cry.ogg/"
         },
         "020-Raticate": {
             "sprite": {
@@ -178,7 +197,8 @@
             },
             "catch_rate": 127,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/94/Raticate_cry.ogg/"
         },
         "021-Spearow": {
             "sprite": {
@@ -187,7 +207,8 @@
             },
             "catch_rate": 255,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/50/Spearow_cry.ogg/"
         },
         "022-Fearow": {
             "sprite": {
@@ -196,7 +217,8 @@
             },
             "catch_rate": 90,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/15/Fearow_cry.ogg/"
         },
         "023-Ekans": {
             "sprite": {
@@ -205,7 +227,8 @@
             },
             "catch_rate": 255,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/70/Ekans_cry.ogg/"
         },
         "024-Arbok": {
             "sprite": {
@@ -214,7 +237,8 @@
             },
             "catch_rate": 90,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/21/Arbok_cry.ogg/"
         },
         "025-Pikachu": {
             "sprite": {
@@ -223,7 +247,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f2/Pikachu_cry.ogg/"
         },
         "026-Raichu": {
             "sprite": {
@@ -232,7 +257,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c1/Raichu_cry.ogg/"
         },
         "027-Sandshrew": {
             "sprite": {
@@ -241,7 +267,8 @@
             },
             "catch_rate": 255,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b6/Sandshrew_cry.ogg/"
         },
         "028-Sandslash": {
             "sprite": {
@@ -250,7 +277,8 @@
             },
             "catch_rate": 90,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/2b/Sandslash_cry.ogg/"
         },
         "029-Nidoran\u2640": {
             "sprite": {
@@ -259,7 +287,8 @@
             },
             "catch_rate": 235,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/4/4d/Nidoran%E2%99%80_cry.ogg/"
         },
         "030-Nidorina": {
             "sprite": {
@@ -268,7 +297,8 @@
             },
             "catch_rate": 120,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d7/Nidorina_cry.ogg/"
         },
         "031-Nidoqueen": {
             "sprite": {
@@ -277,7 +307,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/23/Nidoqueen_cry.ogg/"
         },
         "032-Nidoran\u2642": {
             "sprite": {
@@ -286,7 +317,8 @@
             },
             "catch_rate": 235,
             "times_caught": 4,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f4/Nidoran%E2%99%82_cry.ogg/"
         },
         "033-Nidorino": {
             "sprite": {
@@ -295,7 +327,8 @@
             },
             "catch_rate": 120,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/ef/Nidorino_cry.ogg/"
         },
         "034-Nidoking": {
             "sprite": {
@@ -304,7 +337,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/56/Nidoking_cry.ogg/"
         },
         "035-Clefairy": {
             "sprite": {
@@ -313,7 +347,8 @@
             },
             "catch_rate": 150,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/1a/Clefairy_cry.ogg/"
         },
         "036-Clefable": {
             "sprite": {
@@ -322,7 +357,8 @@
             },
             "catch_rate": 25,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/22/Clefable_cry.ogg/"
         },
         "037-Vulpix": {
             "sprite": {
@@ -331,7 +367,8 @@
             },
             "catch_rate": 190,
             "times_caught": 34,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/15/Vulpix_cry.ogg/"
         },
         "038-Ninetales": {
             "sprite": {
@@ -340,7 +377,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f9/Ninetales_cry.ogg/"
         },
         "039-Jigglypuff": {
             "sprite": {
@@ -349,7 +387,8 @@
             },
             "catch_rate": 170,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/4/46/Jigglypuff_cry.ogg/"
         },
         "040-Wigglytuff": {
             "sprite": {
@@ -358,7 +397,8 @@
             },
             "catch_rate": 50,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/cc/Wigglytuff_cry.ogg/"
         },
         "041-Zubat": {
             "sprite": {
@@ -367,7 +407,8 @@
             },
             "catch_rate": 255,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/15/Zubat_cry.ogg/"
         },
         "042-Golbat": {
             "sprite": {
@@ -376,7 +417,8 @@
             },
             "catch_rate": 90,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/a7/Golbat_cry.ogg/"
         },
         "043-Oddish": {
             "sprite": {
@@ -385,7 +427,8 @@
             },
             "catch_rate": 255,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/96/Oddish_cry.ogg/"
         },
         "044-Gloom": {
             "sprite": {
@@ -394,7 +437,8 @@
             },
             "catch_rate": 120,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/2c/Gloom_cry.ogg/"
         },
         "045-Vileplume": {
             "sprite": {
@@ -403,7 +447,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/15/Vileplume_cry.ogg/"
         },
         "046-Paras": {
             "sprite": {
@@ -412,7 +457,8 @@
             },
             "catch_rate": 190,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/66/Paras_cry.ogg/"
         },
         "047-Parasect": {
             "sprite": {
@@ -421,7 +467,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/ef/Parasect_cry.ogg/"
         },
         "048-Venonat": {
             "sprite": {
@@ -430,7 +477,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f0/Venonat_cry.ogg/"
         },
         "049-Venomoth": {
             "sprite": {
@@ -439,7 +487,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/8/8d/Venomoth_cry.ogg/"
         },
         "050-Diglett": {
             "sprite": {
@@ -448,7 +497,8 @@
             },
             "catch_rate": 255,
             "times_caught": 15,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/ed/Diglett_cry.ogg/"
         },
         "051-Dugtrio": {
             "sprite": {
@@ -457,7 +507,8 @@
             },
             "catch_rate": 50,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/99/Dugtrio_cry.ogg/"
         },
         "052-Meowth": {
             "sprite": {
@@ -466,7 +517,8 @@
             },
             "catch_rate": 255,
             "times_caught": 4,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/23/Meowth_cry.ogg/"
         },
         "053-Persian": {
             "sprite": {
@@ -475,7 +527,8 @@
             },
             "catch_rate": 90,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/07/Persian_cry.ogg/"
         },
         "054-Psyduck": {
             "sprite": {
@@ -484,7 +537,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/3e/Psyduck_cry.ogg/"
         },
         "055-Golduck": {
             "sprite": {
@@ -493,7 +547,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b1/Golduck_cry.ogg/"
         },
         "056-Mankey": {
             "sprite": {
@@ -502,7 +557,8 @@
             },
             "catch_rate": 190,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/ec/Mankey_cry.ogg/"
         },
         "057-Primeape": {
             "sprite": {
@@ -511,7 +567,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/03/Primeape_cry.ogg/"
         },
         "058-Growlithe": {
             "sprite": {
@@ -520,7 +577,8 @@
             },
             "catch_rate": 190,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/e5/Growlithe_cry.ogg/"
         },
         "059-Arcanine": {
             "sprite": {
@@ -529,7 +587,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/8/8e/Arcanine_cry.ogg/"
         },
         "060-Poliwag": {
             "sprite": {
@@ -538,7 +597,8 @@
             },
             "catch_rate": 255,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/4/4c/Poliwag_cry.ogg/"
         },
         "061-Poliwhirl": {
             "sprite": {
@@ -547,7 +607,8 @@
             },
             "catch_rate": 120,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d4/Poliwhirl_cry.ogg/"
         },
         "062-Poliwrath": {
             "sprite": {
@@ -556,7 +617,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/52/Poliwrath_cry.ogg/"
         },
         "063-Abra": {
             "sprite": {
@@ -565,7 +627,8 @@
             },
             "catch_rate": 200,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/12/Abra_cry.ogg/"
         },
         "064-Kadabra": {
             "sprite": {
@@ -574,7 +637,8 @@
             },
             "catch_rate": 100,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/8/83/Kadabra_cry.ogg/"
         },
         "065-Alakazam": {
             "sprite": {
@@ -583,7 +647,8 @@
             },
             "catch_rate": 50,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/96/Alakazam_cry.ogg/"
         },
         "066-Machop": {
             "sprite": {
@@ -592,7 +657,8 @@
             },
             "catch_rate": 180,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/a5/Machop_cry.ogg/"
         },
         "067-Machoke": {
             "sprite": {
@@ -601,7 +667,8 @@
             },
             "catch_rate": 90,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f1/Machoke_cry.ogg/"
         },
         "068-Machamp": {
             "sprite": {
@@ -610,7 +677,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/da/Machamp_cry.ogg/"
         },
         "069-Bellsprout": {
             "sprite": {
@@ -619,7 +687,8 @@
             },
             "catch_rate": 255,
             "times_caught": 4,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/4/40/Bellsprout_cry.ogg/"
         },
         "070-Weepinbell": {
             "sprite": {
@@ -628,7 +697,8 @@
             },
             "catch_rate": 120,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/68/Weepinbell_cry.ogg/"
         },
         "071-Victreebel": {
             "sprite": {
@@ -637,7 +707,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/77/Victreebel_cry.ogg/"
         },
         "072-Tentacool": {
             "sprite": {
@@ -646,7 +717,8 @@
             },
             "catch_rate": 190,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/7a/Tentacool_cry.ogg/"
         },
         "073-Tentacruel": {
             "sprite": {
@@ -655,7 +727,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/91/Tentacruel_cry.ogg/"
         },
         "074-Geodude": {
             "sprite": {
@@ -664,7 +737,8 @@
             },
             "catch_rate": 255,
             "times_caught": 37,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/00/Geodude_cry.ogg/"
         },
         "075-Graveler": {
             "sprite": {
@@ -673,7 +747,8 @@
             },
             "catch_rate": 120,
             "times_caught": 2,
-            "shiny_caught": "Yes"
+            "shiny_caught": "Yes",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/0d/Graveler_cry.ogg/"
         },
         "076-Golem": {
             "sprite": {
@@ -682,7 +757,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b8/Golem_cry.ogg/"
         },
         "077-Ponyta": {
             "sprite": {
@@ -691,7 +767,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d9/Ponyta_cry.ogg/"
         },
         "078-Rapidash": {
             "sprite": {
@@ -700,7 +777,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b0/Rapidash_cry.ogg/"
         },
         "079-Slowpoke": {
             "sprite": {
@@ -709,7 +787,8 @@
             },
             "catch_rate": 190,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/63/Slowpoke_cry.ogg/"
         },
         "080-Slowbro": {
             "sprite": {
@@ -718,7 +797,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/76/Slowbro_cry.ogg/"
         },
         "081-Magnemite": {
             "sprite": {
@@ -727,7 +807,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d1/Magnemite_cry.ogg/"
         },
         "082-Magneton": {
             "sprite": {
@@ -736,7 +817,8 @@
             },
             "catch_rate": 60,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b9/Magneton_cry.ogg/"
         },
         "083-Farfetch'd": {
             "sprite": {
@@ -745,7 +827,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/4/4f/Farfetch%27d_cry.ogg/"
         },
         "084-Doduo": {
             "sprite": {
@@ -754,7 +837,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/93/Doduo_cry.ogg/"
         },
         "085-Dodrio": {
             "sprite": {
@@ -763,7 +847,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b8/Dodrio_cry.ogg/"
         },
         "086-Seel": {
             "sprite": {
@@ -772,7 +857,8 @@
             },
             "catch_rate": 190,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f2/Seel_cry.ogg/"
         },
         "087-Dewgong": {
             "sprite": {
@@ -781,7 +867,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/e4/Dewgong_cry.ogg/"
         },
         "088-Grimer": {
             "sprite": {
@@ -790,7 +877,8 @@
             },
             "catch_rate": 190,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/a6/Grimer_cry.ogg/"
         },
         "089-Muk": {
             "sprite": {
@@ -799,7 +887,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/63/Muk_cry.ogg/"
         },
         "090-Shellder": {
             "sprite": {
@@ -808,7 +897,8 @@
             },
             "catch_rate": 190,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/38/Shellder_cry.ogg/"
         },
         "091-Cloyster": {
             "sprite": {
@@ -817,7 +907,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/0b/Cloyster_cry.ogg/"
         },
         "092-Gastly": {
             "sprite": {
@@ -826,7 +917,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/e0/Gastly_cry.ogg/"
         },
         "093-Haunter": {
             "sprite": {
@@ -835,7 +927,8 @@
             },
             "catch_rate": 90,
             "times_caught": 5,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d8/Haunter_cry.ogg/"
         },
         "094-Gengar": {
             "sprite": {
@@ -844,7 +937,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c5/Gengar_cry.ogg/"
         },
         "095-Onix": {
             "sprite": {
@@ -853,7 +947,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/16/Onix_cry.ogg/"
         },
         "096-Drowzee": {
             "sprite": {
@@ -862,7 +957,8 @@
             },
             "catch_rate": 190,
             "times_caught": 5,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/00/Drowzee_cry.ogg/"
         },
         "097-Hypno": {
             "sprite": {
@@ -871,7 +967,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/7d/Hypno_cry.ogg/"
         },
         "098-Krabby": {
             "sprite": {
@@ -880,7 +977,8 @@
             },
             "catch_rate": 225,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c5/Krabby_cry.ogg/"
         },
         "099-Kingler": {
             "sprite": {
@@ -889,7 +987,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/19/Kingler_cry.ogg/"
         },
         "100-Voltorb": {
             "sprite": {
@@ -898,7 +997,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/08/Voltorb_cry.ogg/"
         },
         "101-Electrode": {
             "sprite": {
@@ -907,7 +1007,8 @@
             },
             "catch_rate": 60,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/58/Electrode_cry.ogg/"
         },
         "102-Exeggcute": {
             "sprite": {
@@ -916,7 +1017,8 @@
             },
             "catch_rate": 90,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/ef/Exeggcute_cry.ogg/"
         },
         "103-Exeggutor": {
             "sprite": {
@@ -925,7 +1027,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/3e/Exeggutor_cry.ogg/"
         },
         "104-Cubone": {
             "sprite": {
@@ -934,7 +1037,8 @@
             },
             "catch_rate": 190,
             "times_caught": 17,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/3f/Cubone_cry.ogg/"
         },
         "105-Marowak": {
             "sprite": {
@@ -943,7 +1047,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/f4/Marowak_cry.ogg/"
         },
         "106-Hitmonlee": {
             "sprite": {
@@ -952,7 +1057,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/72/Hitmonlee_cry.ogg/"
         },
         "107-Hitmonchan": {
             "sprite": {
@@ -961,7 +1067,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/30/Hitmonchan_cry.ogg/"
         },
         "108-Lickitung": {
             "sprite": {
@@ -970,7 +1077,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/11/Lickitung_cry.ogg/"
         },
         "109-Koffing": {
             "sprite": {
@@ -979,7 +1087,8 @@
             },
             "catch_rate": 190,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/95/Koffing_cry.ogg/"
         },
         "110-Weezing": {
             "sprite": {
@@ -988,7 +1097,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/a3/Weezing_cry.ogg/"
         },
         "111-Rhyhorn": {
             "sprite": {
@@ -997,7 +1107,8 @@
             },
             "catch_rate": 120,
             "times_caught": 4,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d6/Rhyhorn_cry.ogg/"
         },
         "112-Rhydon": {
             "sprite": {
@@ -1006,7 +1117,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/f/fb/Rhydon_cry.ogg/"
         },
         "113-Chansey": {
             "sprite": {
@@ -1015,7 +1127,8 @@
             },
             "catch_rate": 30,
             "times_caught": 3,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/6e/Chansey_cry.ogg/"
         },
         "114-Tangela": {
             "sprite": {
@@ -1024,7 +1137,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/6/62/Tangela_cry.ogg/"
         },
         "115-Kangaskhan": {
             "sprite": {
@@ -1033,7 +1147,8 @@
             },
             "catch_rate": 45,
             "times_caught": 2,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/1d/Kangaskhan_cry.ogg/"
         },
         "116-Horsea": {
             "sprite": {
@@ -1042,7 +1157,8 @@
             },
             "catch_rate": 225,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/a0/Horsea_cry.ogg/"
         },
         "117-Seadra": {
             "sprite": {
@@ -1051,7 +1167,8 @@
             },
             "catch_rate": 75,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/8/85/Seadra_cry.ogg/"
         },
         "118-Goldeen": {
             "sprite": {
@@ -1060,7 +1177,8 @@
             },
             "catch_rate": 225,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/4/46/Goldeen_cry.ogg/"
         },
         "119-Seaking": {
             "sprite": {
@@ -1069,7 +1187,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/aa/Seaking_cry.ogg/"
         },
         "120-Staryu": {
             "sprite": {
@@ -1078,7 +1197,8 @@
             },
             "catch_rate": 225,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/5d/Staryu_cry.ogg/"
         },
         "121-Starmie": {
             "sprite": {
@@ -1087,7 +1207,8 @@
             },
             "catch_rate": 60,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/cc/Starmie_cry.ogg/"
         },
         "122-Mr. Mime": {
             "sprite": {
@@ -1096,7 +1217,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c4/Mr._Mime_cry.ogg/"
         },
         "123-Scyther": {
             "sprite": {
@@ -1105,7 +1227,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/e2/Scyther_cry.ogg/"
         },
         "124-Jynx": {
             "sprite": {
@@ -1114,7 +1237,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/0d/Jynx_cry.ogg/"
         },
         "125-Electabuzz": {
             "sprite": {
@@ -1123,7 +1247,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d2/Electabuzz_cry.ogg/"
         },
         "126-Magmar": {
             "sprite": {
@@ -1132,7 +1257,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c8/Magmar_cry.ogg/"
         },
         "127-Pinsir": {
             "sprite": {
@@ -1141,7 +1267,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c1/Pinsir_cry.ogg/"
         },
         "128-Tauros": {
             "sprite": {
@@ -1150,7 +1277,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/2a/Tauros_cry.ogg/"
         },
         "129-Magikarp": {
             "sprite": {
@@ -1159,7 +1287,8 @@
             },
             "catch_rate": 255,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/c1/Magikarp_cry.ogg/"
         },
         "130-Gyarados": {
             "sprite": {
@@ -1168,7 +1297,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/13/Gyarados_cry.ogg/"
         },
         "131-Lapras": {
             "sprite": {
@@ -1177,7 +1307,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/2c/Lapras_cry.ogg/"
         },
         "132-Ditto": {
             "sprite": {
@@ -1186,7 +1317,8 @@
             },
             "catch_rate": 35,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/2a/Ditto_cry.ogg/"
         },
         "133-Eevee": {
             "sprite": {
@@ -1195,7 +1327,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/e/ed/Eevee_cry.ogg/"
         },
         "134-Vaporeon": {
             "sprite": {
@@ -1204,7 +1337,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/52/Vaporeon_cry.ogg/"
         },
         "135-Jolteon": {
             "sprite": {
@@ -1213,7 +1347,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/52/Jolteon_cry.ogg/"
         },
         "136-Flareon": {
             "sprite": {
@@ -1222,7 +1357,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/a/a3/Flareon_cry.ogg/"
         },
         "137-Porygon": {
             "sprite": {
@@ -1231,7 +1367,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b3/Porygon_cry.ogg/"
         },
         "138-Omanyte": {
             "sprite": {
@@ -1240,7 +1377,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/08/Omanyte_cry.ogg/"
         },
         "139-Omastar": {
             "sprite": {
@@ -1249,7 +1387,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/1/1c/Omastar_cry.ogg/"
         },
         "140-Kabuto": {
             "sprite": {
@@ -1258,7 +1397,8 @@
             },
             "catch_rate": 45,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/0/04/Kabuto_cry.ogg/"
         },
         "141-Kabutops": {
             "sprite": {
@@ -1267,7 +1407,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/9c/Kabutops_cry.ogg/"
         },
         "142-Aerodactyl": {
             "sprite": {
@@ -1276,7 +1417,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/55/Aerodactyl_cry.ogg/"
         },
         "143-Snorlax": {
             "sprite": {
@@ -1285,7 +1427,8 @@
             },
             "catch_rate": 25,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/3/31/Snorlax_cry.ogg/"
         },
         "144-Articuno": {
             "sprite": {
@@ -1294,7 +1437,8 @@
             },
             "catch_rate": 3,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/d/d5/Articuno_cry.ogg/"
         },
         "145-Zapdos": {
             "sprite": {
@@ -1303,7 +1447,8 @@
             },
             "catch_rate": 3,
             "times_caught": 1,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/73/Zapdos_cry.ogg/"
         },
         "146-Moltres": {
             "sprite": {
@@ -1312,7 +1457,8 @@
             },
             "catch_rate": 3,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/2/21/Moltres_cry.ogg/"
         },
         "147-Dratini": {
             "sprite": {
@@ -1321,7 +1467,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/7/70/Dratini_cry.ogg/"
         },
         "148-Dragonair": {
             "sprite": {
@@ -1330,7 +1477,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/5/56/Dragonair_cry.ogg/"
         },
         "149-Dragonite": {
             "sprite": {
@@ -1339,7 +1487,8 @@
             },
             "catch_rate": 45,
             "times_caught": 0,
-            "shiny_caught": "No"
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/c/cf/Dragonite_cry.ogg/"
         },
         "150-Mewtwo": {
             "sprite": {
@@ -1347,7 +1496,9 @@
                 "shiny": "https://img.pokemondb.net/sprites/home/shiny/mewtwo.png"
             },
             "catch_rate": 3,
-            "times_caught": 0
+            "times_caught": 0,
+            "shiny_caught": "No",
+            "cry": "https://static.wikia.nocookie.net/pokemongo/images/9/9a/Mewtwo_cry.ogg/"
         }
     },
     "ball_rate": {
