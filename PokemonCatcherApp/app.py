@@ -16,7 +16,7 @@ import requests
 
 #%% Database loading and configuration
 DATASOURCES_PATH = os.path.join(os.getcwd(), r"resources")
-DATABASE_PATH = os.path.join(DATASOURCES_PATH, r"pokemon_db.json")
+DATABASE_PATH = os.path.join(DATASOURCES_PATH, r"pokemonletsgo_db.json")
 UTILS_PATH = os.path.join(DATASOURCES_PATH, r"utils.json")
 
 with open(DATABASE_PATH, "r", encoding="utf-8") as database,\
@@ -28,7 +28,7 @@ pokemon_dict = pokemon_db["pokemon"]
 ballrate_dict = pokemon_db["ball_rate"]
 technique_dict = pokemon_db["technique"]
 berry_dict = pokemon_db["berry"]
-pokemonchain_dict = utils_json["pokemonchain"]
+pokemonchain_dict = pokemon_db["letsgochain"]
 
 # Global variables
 chaintext = html.Td("No chain", style={"font-weight": "normal"})
