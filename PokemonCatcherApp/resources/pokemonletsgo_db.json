@@ -36,7 +36,7 @@
                 "shiny": "https://img.pokemondb.net/sprites/home/shiny/charmander.png"
             },
             "catch_rate": 45,
-            "times_caught": 77,
+            "times_caught": 100,
             "shiny_caught": "No",
             "cry": "https://static.wikia.nocookie.net/pokemongo/images/b/b3/Charmander_cry.ogg/"
         },
@@ -1519,9 +1519,9 @@
         "golden": 4.0
     },
     "letsgochain": {
-        "pokemonname": "",
-        "chainvalue": 0,
-        "chaintext": "No chain",
+        "pokemonname": "004-Charmander",
+        "chainvalue": 23,
+        "chaintext": "Chain of 23 Charmander!",
         "chaintext_init": "No chain"
     }
 }
