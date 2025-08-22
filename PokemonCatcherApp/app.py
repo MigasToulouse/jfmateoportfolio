@@ -12,6 +12,7 @@ import pandas as pd
 from dash import Dash, Input, Output, callback, dcc, html, ctx
 from PIL import Image
 import requests
+import numpy as np
 
 
 #%% Database loading and configuration
@@ -69,19 +70,26 @@ def catch_pokemon(pokemon: str, combat_power: int, ball: str, berry: str) -> lis
         """
         times_caught = min(100, pokemon_dict[pokemon]["times_caught"])
 
-        a = (
-            1.25 * pokemon_dict[pokemon]["catch_rate"] ** (1 / 1.85)
-            * (10000 / ((100 - times_caught) / 100 * combat_power + 1)) ** (1 / 4)
-            * ballrate_dict[ball] ** (3 / 2)
-            * (technique_dict[technique] + berry_dict[berry]) ** (1 / 2)
+        a = (1.25
+            * np.pow( pokemon_dict[pokemon]["catch_rate"],(1 / 1.85) )
+            * np.pow( (10000 / ((100 - times_caught) / 100 * combat_power + 1)), (1 / 4) )
+            * np.pow( ballrate_dict[ball], (3 / 2) )
+            * np.pow( (technique_dict[technique] * berry_dict[berry]), (1 / 2) )
         )
 
-        # print(f"a: {a}")
-        b = 65535 / a ** (5 / 16)
-        # print(f"b: {b}")
+        # a = (
+        #     1.25 * pokemon_dict[pokemon]["catch_rate"] ** (1 / 1.85)
+        #     * (10000 / ((100 - times_caught) / 100 * combat_power + 1)) ** (1 / 4)
+        #     * ballrate_dict[ball] ** (3 / 2)
+        #     * (technique_dict[technique] * berry_dict[berry]) ** (1 / 2)
+        # )
 
-        catch_rate = (1 - b / 65536) * 100
-        #print(f"Catch rate: {type(catch_rate)}")
+        print(f"a: {a}")
+        # b = 65535 / np.pow(a, (5 / 16))
+        b = 65535 / np.pow(255 / a, (1 / 5.33))
+        print(f"b: {b}")
+        catch_rate = (b / 65535) * 100
+        print(f"Catch rate: {(catch_rate)}")
         catch_rate = min(100, catch_rate)
 
         return round(catch_rate, 2)

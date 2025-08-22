@@ -1,0 +1,61 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.venvCuda/
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
+
+# Logs and database files
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Cache and temporary files
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Package distribution files
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing and coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+*.py.cover
+.pytest_cache/
+
+# MyPy type checking
+.mypy_cache/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Docker and CI/CD
+# Only ignoring the override file; other Docker files like docker-compose.yml are tracked intentionally.
+docker-compose.override.yml
+
+# Explicit directories and files
+*/develop.ipynb
+*/ToDo
