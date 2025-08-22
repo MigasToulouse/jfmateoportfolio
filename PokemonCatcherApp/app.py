@@ -84,12 +84,21 @@ def catch_pokemon(pokemon: str, combat_power: int, ball: str, berry: str) -> lis
         #     * (technique_dict[technique] * berry_dict[berry]) ** (1 / 2)
         # )
 
+<<<<<<< HEAD
         # print(f"a: {a}")
         # b = 65535 / np.pow(a, (5 / 16))
         b = 65535 / np.pow(255 / a, (1 / 5.33))
         # print(f"b: {b}")
         catch_rate = (b / 65535) * 100
         # print(f"Catch rate: {(catch_rate)}")
+=======
+        print(f"a: {a}")
+        # b = 65535 / np.pow(a, (5 / 16))
+        b = 65535 / np.pow(255 / a, (1 / 5.33))
+        print(f"b: {b}")
+        catch_rate = (b / 65535) * 100
+        print(f"Catch rate: {(catch_rate)}")
+>>>>>>> 33a3edbd6c13220bcde424409ca33d117197cda2
         catch_rate = min(100, catch_rate)
 
         return round(catch_rate, 2)
